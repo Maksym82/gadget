@@ -30,7 +30,7 @@ export default function Auth() {
         <div className="w-full h-screen flex items-center justify-center dark:bg-gray-800 bg-gray-200">
             <div className="dark:bg-gray-700 bg-white p-8 rounded-lg shadow-lg w-96">
                 <form onSubmit={handleSubmit}>
-                    <div className="flex items-end mb-4 gap-2 justify-center mb-6">
+                    <div className="flex items-end gap-2 justify-center mb-6">
                         <UserIcon className="dark:text-gray-100 text-gray-900 size-6 mb-2" />
                         <div className="grid grid-cols-1 w-full">
                             <label htmlFor='email' className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
@@ -48,7 +48,7 @@ export default function Auth() {
                             />
                         </div>
                     </div>
-                    <div className="flex items-end mb-4 gap-2 justify-center mb-6">
+                    <div className="flex items-end gap-2 justify-center mb-6">
                         <LockClosedIcon className="dark:text-gray-100 text-gray-900 size-6 mb-2" />
                         <div className="grid grid-cols-1 w-full">
                             <label htmlFor='pass' className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
