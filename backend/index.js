@@ -58,7 +58,7 @@ app.get('/users', (req, res) => {
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
   
-  if (email !== 'citrusadmin@moonshine.com' || password !== '12345') {
+  if (email !== 'maksym.gromov82@gmail.com' || password !== '12345') {
     return res.status(403).json({ error: 'Email and password not valid' });
   }
 
